@@ -4,7 +4,11 @@
 #include <chrono>
 #include <cstdint>
 #include <string>
+#include <vector>
+
 #include "Address.h"
+#include "Order.h"
+#include "Note.h"
 
 class Customer
 {
@@ -42,6 +46,8 @@ private:
     Address                               address;
     std::string                           email;
     int64_t                               balance;
+    std::vector<Order>                    orders;
+    std::vector<Note>                     notes;
 };
 
 #endif // CUSTOMER_H
