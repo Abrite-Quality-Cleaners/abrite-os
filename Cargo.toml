@@ -1,0 +1,8 @@
+[package]
+name = "abrite-os"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mongodb = "2.3" # MongoDB driver
+tokio = { version = "1", features = ["full"] } # Async runtime

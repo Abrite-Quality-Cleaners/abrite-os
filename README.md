@@ -4,6 +4,23 @@ Point-of-sale and local inventory management software for an Abrite store.
 ## References
 - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu-tarball/
 
+## Install Rust
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Ensure `cargo` and `rustc` are in your `PATH`
+```
+rustc --version
+cargo --version
+```
+
+Create a project
+```
+cargo new <project name>
+```
+
 ## Install the latest MongoDB Community Server
 ### Import the public key
 ```
